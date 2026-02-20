@@ -25,3 +25,7 @@ variable "public_subnet_cidr" {
 variable "private_subnet_cidr" {
   type = string
 }
+
+variable "gke_name" {
+  type = string
+}
