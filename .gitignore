@@ -1,4 +1,7 @@
 .terraform/
 .DS*
 .terraform.lock.hcl
+<<<<<<< HEAD
 .gitignore
+=======
+>>>>>>> 390c7db318ca33f5cdc73bd9c1f270e90a73fbb1
