@@ -1,4 +1,4 @@
-resource "google_compute_instance" "vm_instance" {
+/*resource "google_compute_instance" "vm_instance" {
     name         = var.name
   machine_type = "e2-medium"
   zone         = "us-central1-a"
@@ -15,4 +15,4 @@ resource "google_compute_instance" "vm_instance" {
       // Ephemeral public IP
     }
   }
-}
+}*/

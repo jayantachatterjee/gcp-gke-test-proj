@@ -13,3 +13,15 @@ variable "region" {
 variable "credential_file_path" {
   type = string
 }
+
+variable "vpc_name" {
+    type= string
+}
+
+variable "public_subnet_cidr" {
+  type = string
+}
+
+variable "private_subnet_cidr" {
+  type = string
+}
