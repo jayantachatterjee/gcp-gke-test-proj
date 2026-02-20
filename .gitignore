@@ -1,2 +1,3 @@
 .terraform/
 .DS*
+.terraform.lock.hcl
