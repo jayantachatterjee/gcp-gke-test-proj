@@ -1,5 +1,5 @@
 name = "my-gke-cluster" 
-project_id = "my-gcp-project-id"
+project_id = "main-form-472612-d3"
 region = "us-central1"
 credential_file_path = "/Users/jayantachatterjee/Documents/New-Content/gcp_key.json"
 
