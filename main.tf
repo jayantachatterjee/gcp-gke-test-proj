@@ -9,3 +9,9 @@ module "vpc" {
   public_subnet_cidr = var.public_subnet_cidr
   private_subnet_cidr = var.private_subnet_cidr
 }
+
+module "gke" {
+  source = "./module/gke"
+  gke_name = var.gke_name
+  region = var.region
+}
