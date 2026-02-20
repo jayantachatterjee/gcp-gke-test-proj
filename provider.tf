@@ -7,6 +7,13 @@ terraform {
   }
 }
 
+terraform {
+  backend "gcs" {
+    bucket = "my-terraform-bucket-121273"
+    prefix = "terraform/state"
+  }
+}
+
 provider "google" {
   # Configuration options
   project = var.project_id
